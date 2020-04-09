@@ -13,3 +13,19 @@ Or create the gif between known timestamps:
 ```
 python3 gifify.py --start 01:13 --end 01:15 <Path to video>
 ```
+
+### Example:
+
+```
+ python3 gifify.py --quote "he is a cyborg richard" /home/aditya/Videos/Silicon.Valley.S02E04.720p.HDTV.x264.ShAaNiG.mkv 
+```
+
+Output:
+
+![](./assets/op.png)
+
+![](./assets/op.gif)
+
+Image at `04:48`:
+
+![](./assets/expected.png)
